@@ -6,6 +6,7 @@
 .pnp.js
 /Project\ 2/node_modules
 /project-3/node_modules
+/project-4/node_modules
 
 # testing
 /coverage
