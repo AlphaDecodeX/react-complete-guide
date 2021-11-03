@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AuthContext from '../../../store/auth-context';
 import classes from './Button.module.css';
 
 const Button = (props) => {
