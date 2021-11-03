@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, useReducer, useRef } from 'react';
+import React, { useState, useContext, useEffect, useReducer } from 'react';
 
 import Card from '../UI/Card/Card';
 import classes from './Login.module.css';
