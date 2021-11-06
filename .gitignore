@@ -8,7 +8,9 @@
 /project-3/node_modules
 /project-4/node_modules
 /food-order-app/node_modules
+/login/node_modules
 /project-5/node_modules
+
 
 # testing
 /coverage
