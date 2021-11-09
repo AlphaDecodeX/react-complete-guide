@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-/Project\ 2/node_modules
+/project-1/node_modules
 /project-3/node_modules
 /project-4/node_modules
-/food-order-app/node_modules
+/project-2/node_modules
 /login/node_modules
 /project-6/node_modules
 /project-5/node_modules
@@ -16,7 +16,7 @@
 /project-9/node_modules
 /project-10/node_modules
 /project-11/node_modules
-
+/project-12/node_modules
 
 # testing
 /coverage
