@@ -46,6 +46,12 @@ const Checkout = (props) => {
             // Submit Cart Data to the DB otherwise show Error
             return
         }
+        props.onConfirm({
+            name: enteredName,
+            street: enteredStreet,
+            city: enteredCity,
+            postalCode: enteredPostalCode
+        });
     };
 
     const nameControlClasses = `${classes.control} ${formInputsValidity.name ? '' : classes.invalid}}`;
