@@ -9,6 +9,7 @@ function App() {
   return (
     <Layout>
       <Switch>
+
         <Route path="/" exact>
           <Redirect to="/quotes" />
         </Route>
@@ -20,12 +21,15 @@ function App() {
         <Route path="/quotes/:quoteId">
           <QuoteDetail />
         </Route>
+
         <Route path="/new-quote">
           <NewQuote />
         </Route>
+
         <Route path="*">
           <NotFound />
         </Route>
+
       </Switch>
     </Layout>
   );
