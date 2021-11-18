@@ -11,7 +11,7 @@ import sendCartData from "./store/cart-slice"
 let isInitial = true;
 
 function App() {
-
+  const dispatch = useDispatch();
   const showCart = useSelector(state => state.ui.cartIsVisible);
   const cart = useSelector(state => state.cart);
 
@@ -21,7 +21,7 @@ function App() {
     if (isInitial) {
       isInitial = false;
       return;
-    }
+    };
     dispatch(sendCartData(cart));
   },
     [cart, dispatch])

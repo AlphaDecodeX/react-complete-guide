@@ -39,7 +39,7 @@ const cartSlice = createSlice({
     }
 })
 
-export const sendCartData = (cart) => {
+export function sendCartData(cart) {
     return async (dispatch) => {
         dispatch(uiActions.showNotification({
             status: 'pending',
