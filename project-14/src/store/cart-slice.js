@@ -8,8 +8,8 @@ const cartSlice = createSlice({
         totalQuantity: 0,
     },
     reducers: {
-        addItemToCart(state, action) {
-            const newItem = action.payload;
+        addItemToCart(state, action) { // Latest State
+            const newItem = action.payload; // newItem = {id : "adew", price: "25"}
             const existingItem = state.items.find(item => item.id === newItem.id);
             state.totalQuantity++;
             if (!existingItem) {
@@ -73,6 +73,6 @@ export function sendCartData(cart) {
 }
 
 
-export const cartActions = cartSlice.actions;
+export const cartActions = cartSlice.actions; // Action Dispatch --> functions call
 
 export default cartSlice;

@@ -8,6 +8,7 @@ import sendCartData from "./store/cart-slice"
 
 //Redux Used with multiple slices
 
+
 let isInitial = true;
 
 function App() {
