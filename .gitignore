@@ -23,6 +23,8 @@
 /project-16/node_modules
 /project-17/node_modules
 /nextjs/node_modules
+/nextjs/projectnextjs/node_modules
+/nextjs/projectnextjs/.next
 # testing
 /coverage
 
