@@ -1,10 +1,19 @@
+import Head from "next/head";
 import { MongoClient } from "mongodb";
+import { Fragment } from "react";
 
 import MeetupList from "../components/meetups/MeetupList";
 
 function Homepage(props) {
     return (
-        <MeetupList meetups={props.meetups} />
+        <Fragment>
+            <Head>
+                <title>Meetups</title>
+                <meta name="description"
+                    content="A demo of NEXTJS" />
+            </Head>
+            <MeetupList meetups={props.meetups} />
+        </Fragment>
     )
 }
 // export async function getServerSideProps(context) {
