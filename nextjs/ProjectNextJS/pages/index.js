@@ -21,6 +21,19 @@ function Homepage(props) {
         <MeetupList meetups={props.meetups} />
     )
 }
+// export async function getServerSideProps(context) {
+//     const req = context.req;
+//     const res = context.res;
+
+//     // can fetch data from API or Database
+//     return {
+//         props: {
+//             meetups: DUMMY_MEETUPS
+//         }
+//     }
+// }
+
+// If data not changes at faster rate.....
 
 export async function getStaticProps() {
     return {
