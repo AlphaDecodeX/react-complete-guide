@@ -29,6 +29,7 @@
 /ReduxContextAPI/ContextAlternative/node_modules
 /UnitTesting/node_modules
 /TypeScript/node_modules
+/TypeScript/react-ts/node_modules
 # testing
 /coverage
 
