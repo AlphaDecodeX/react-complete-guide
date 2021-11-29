@@ -27,6 +27,7 @@
 /nextjs/projectnextjs/.next
 /ReduxContextAPI/Redux1/node_modules
 /ReduxContextAPI/ContextAlternative/node_modules
+/UnitTesting/node_modules
 # testing
 /coverage
 
